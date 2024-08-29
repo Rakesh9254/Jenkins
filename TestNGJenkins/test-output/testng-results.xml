@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-30T02:22:17 IST" name="Default suite" finished-at="2024-08-30T02:22:20 IST" duration-ms="2649">
+    <groups>
+    </groups>
+    <test started-at="2024-08-30T02:22:17 IST" name="Default test" finished-at="2024-08-30T02:22:20 IST" duration-ms="2649">
+      <class name="Jenkins.TestCase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Jenkins.TestCase@61c4eee0]" started-at="2024-08-30T02:22:18 IST" name="setUp" finished-at="2024-08-30T02:22:20 IST" duration-ms="2504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddition()[pri:0, instance:Jenkins.TestCase@61c4eee0]" started-at="2024-08-30T02:22:20 IST" name="testAddition" finished-at="2024-08-30T02:22:20 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method signature="testAddition1()[pri:0, instance:Jenkins.TestCase@61c4eee0]" started-at="2024-08-30T02:22:20 IST" name="testAddition1" finished-at="2024-08-30T02:22:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Jenkins.TestCase@61c4eee0]" started-at="2024-08-30T02:22:20 IST" name="tearDown" finished-at="2024-08-30T02:22:20 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Jenkins.TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
