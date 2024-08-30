@@ -1,25 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-30T02:22:17 IST" name="Default suite" finished-at="2024-08-30T02:22:20 IST" duration-ms="2649">
+  <suite started-at="2024-08-30T23:58:53 IST" name="Default suite" finished-at="2024-08-30T23:58:57 IST" duration-ms="3676">
     <groups>
     </groups>
-    <test started-at="2024-08-30T02:22:17 IST" name="Default test" finished-at="2024-08-30T02:22:20 IST" duration-ms="2649">
+    <test started-at="2024-08-30T23:58:53 IST" name="Default test" finished-at="2024-08-30T23:58:57 IST" duration-ms="3676">
       <class name="Jenkins.TestCase">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Jenkins.TestCase@61c4eee0]" started-at="2024-08-30T02:22:18 IST" name="setUp" finished-at="2024-08-30T02:22:20 IST" duration-ms="2504" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:53 IST" name="setUp" finished-at="2024-08-30T23:58:54 IST" duration-ms="1306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAddition()[pri:0, instance:Jenkins.TestCase@61c4eee0]" started-at="2024-08-30T02:22:20 IST" name="testAddition" finished-at="2024-08-30T02:22:20 IST" duration-ms="5" status="PASS">
+        <test-method signature="VerifyTitle()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:54 IST" name="VerifyTitle" finished-at="2024-08-30T23:58:56 IST" duration-ms="1174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+        <test-method signature="testAddition()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:56 IST" name="testAddition" finished-at="2024-08-30T23:58:56 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddition -->
-        <test-method signature="testAddition1()[pri:0, instance:Jenkins.TestCase@61c4eee0]" started-at="2024-08-30T02:22:20 IST" name="testAddition1" finished-at="2024-08-30T02:22:20 IST" duration-ms="2" status="PASS">
+        <test-method signature="testAddition1()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:56 IST" name="testAddition1" finished-at="2024-08-30T23:58:56 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddition1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Jenkins.TestCase@61c4eee0]" started-at="2024-08-30T02:22:20 IST" name="tearDown" finished-at="2024-08-30T02:22:20 IST" duration-ms="108" status="PASS">
+        <test-method signature="testArrayContains()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:56 IST" name="testArrayContains" finished-at="2024-08-30T23:58:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArrayContains -->
+        <test-method signature="testArrayEquality()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:56 IST" name="testArrayEquality" finished-at="2024-08-30T23:58:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArrayEquality -->
+        <test-method signature="testArrayLength()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:56 IST" name="testArrayLength" finished-at="2024-08-30T23:58:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArrayLength -->
+        <test-method signature="testArrayNotEqual()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:56 IST" name="testArrayNotEqual" finished-at="2024-08-30T23:58:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testArrayNotEqual -->
+        <test-method signature="testBooleanAssertion()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:56 IST" name="testBooleanAssertion" finished-at="2024-08-30T23:58:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBooleanAssertion -->
+        <test-method signature="testDivision()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:56 IST" name="testDivision" finished-at="2024-08-30T23:58:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision -->
+        <test-method signature="testDoubleEquality()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:56 IST" name="testDoubleEquality" finished-at="2024-08-30T23:58:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDoubleEquality -->
+        <test-method signature="testElementVisibility()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:56 IST" name="testElementVisibility" finished-at="2024-08-30T23:58:57 IST" duration-ms="999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testElementVisibility -->
+        <test-method signature="testIsFalse()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:57 IST" name="testIsFalse" finished-at="2024-08-30T23:58:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsFalse -->
+        <test-method signature="testIsNotNull()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:57 IST" name="testIsNotNull" finished-at="2024-08-30T23:58:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsNotNull -->
+        <test-method signature="testIsNull()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:57 IST" name="testIsNull" finished-at="2024-08-30T23:58:57 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsNull -->
+        <test-method signature="testIsTrue()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:57 IST" name="testIsTrue" finished-at="2024-08-30T23:58:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsTrue -->
+        <test-method signature="testMultiplication()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:57 IST" name="testMultiplication" finished-at="2024-08-30T23:58:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplication -->
+        <test-method signature="testStringConcatenation()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:57 IST" name="testStringConcatenation" finished-at="2024-08-30T23:58:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStringConcatenation -->
+        <test-method signature="testStringContains()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:57 IST" name="testStringContains" finished-at="2024-08-30T23:58:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStringContains -->
+        <test-method signature="testStringEndsWith()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:57 IST" name="testStringEndsWith" finished-at="2024-08-30T23:58:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStringEndsWith -->
+        <test-method signature="testStringEquality()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:57 IST" name="testStringEquality" finished-at="2024-08-30T23:58:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStringEquality -->
+        <test-method signature="testStringLength()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:57 IST" name="testStringLength" finished-at="2024-08-30T23:58:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStringLength -->
+        <test-method signature="testStringStartsWith()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:57 IST" name="testStringStartsWith" finished-at="2024-08-30T23:58:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStringStartsWith -->
+        <test-method signature="testSubtraction()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:57 IST" name="testSubtraction" finished-at="2024-08-30T23:58:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtraction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Jenkins.TestCase@17bffc17]" started-at="2024-08-30T23:58:57 IST" name="tearDown" finished-at="2024-08-30T23:58:57 IST" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
